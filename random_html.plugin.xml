@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<pluggable type="plugin">
+  <name>Random HTML</name>
+  <license url="http://www.apache.org/licenses/LICENSE-2.0.html">Apache Software License 2.0</license>
+  <url>http://github.com/mikelietz/random_html/</url>
+  <author url="http://mikelietz.org/">Mike Lietz</author>
+  <version>1.0</version>
+  <description><![CDATA[Outputs a random chunk of HTML stored in XML files.]]></description>
+  <copyright>2011</copyright>
+  <guid>008c5e16-16eb-4d23-b268-ca2959b93808</guid>
+	<help>
+		<value><![CDATA[<p>Add and configure an HTML block on the Themes page. Note that no sanitization or other security checking is done on the HTML being output, so use this plugin at your own risk.</p>]]></value>
+	</help>
+</pluggable>
+ 
