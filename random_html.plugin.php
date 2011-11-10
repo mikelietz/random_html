@@ -67,7 +67,7 @@ class RandomHTML extends Plugin
 	/**
 	 * Block options
 	 **/
-	public function action_block_form_randomquote( $form, $block )
+	public function action_block_form_random_html( $form, $block )
 	{
 		$control = $form->append( 'select', 'filename', $block, _t( 'Source file', 'random_html' ) );
 		foreach( $this->get_all_filenames() as $filename => $file ) {
